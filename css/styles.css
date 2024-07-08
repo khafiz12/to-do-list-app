@@ -90,16 +90,19 @@ body {
 	background-color: #f0f0f0;
   }
   
-  #list li .delete {
-	color: #ff0000;
-	font-weight: bold;
+  /* Delete button styling */
+  .delete-button {
+	background-color: #ff0000;
+	color: white;
+	border: none;
+	border-radius: 4px;
 	cursor: pointer;
+	padding: 5px;
 	margin-left: 10px;
-	transition: color 0.3s;
   }
   
-  #list li .delete:hover {
-	color: #cc0000;
+  .delete-button:hover {
+	background-color: #cc0000;
   }
   
   /* Drag handle styling */
@@ -119,4 +122,3 @@ body {
 	text-decoration: line-through;
 	color: #999;
   }
-  
